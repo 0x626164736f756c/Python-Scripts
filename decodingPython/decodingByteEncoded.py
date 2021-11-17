@@ -1,4 +1,4 @@
-#usr/bin
+#!/usr/bin/env python3
 
 from Crypto.Util.number import bytes_to_long
 from Crypto.Util.number import long_to_bytes

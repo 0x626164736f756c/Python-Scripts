@@ -1,5 +1,4 @@
-#usr/bin
-
+#!/usr/bin/env python3
 
 def decoding():
     try:
@@ -7,9 +6,6 @@ def decoding():
         print(''.join(chr(i)for i in tab))
     except Exception as e:
         print(e)
-
-
-
 
 def main():
     decoding()

@@ -1,4 +1,4 @@
-#usr/bin
+#!/usr/bin/env python3
 
 def decodingHex():
     try:
@@ -7,7 +7,6 @@ def decodingHex():
         print(temp2)
     except Exception as e:
         print(e)
-
 
 def main():
     decodingHex()
