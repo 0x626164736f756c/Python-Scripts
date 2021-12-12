@@ -9,5 +9,5 @@
  - [x] Create a place for stock python scripts and organise them by domain
 
 ## Author : 
-   MEDHEE : https://github.com/Medhee
+   MEDHEE : https://github.com/0x626164736f756c
 
