@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 import base64
 
 
@@ -10,10 +9,10 @@ def decodingB64():
     print(temp2)
 
 
-#decoding the hex input, ---> just comment if the input isnt a HEX
+#decoding the hex byte input, ---> just comment if the input isnt a HEX
 def decodingHex():
     try:
-        temp = "72bca9b68fc16ac7beeb8f849dca1d8a783e8acf9679bf9269f7bf"
+        # tab = <your_input_here> 
         #no need to had .decode('utf-8') because we need the byte version
         temp2 = bytes.fromhex(temp)
         return temp2
