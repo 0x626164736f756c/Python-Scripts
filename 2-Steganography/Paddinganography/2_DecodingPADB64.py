@@ -7,7 +7,7 @@ def get_base64_diff_value(s1, s2):
  return res
 
 def solve_stego():
- with open('stego.txt', 'rb') as f:
+ with open('your_input.txt', 'rb') as f:
   file_lines = f.readlines()
 
  bin_str = ''
