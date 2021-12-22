@@ -2,17 +2,21 @@
 
 #exemple of decoded string and int key to decode
 plaintext = "<your_encoded_text_in_xor>"
-integer_key = "<your_decoded_key_in_decimal_type(int)>"
+integer_key = <your_decoded_key_in_decimal_type(int)>
 
 #methods to xor and print output
 def xor_String_with_Integer(input_text = str, key_integer = int):
-    binaryKey = format(key_integer,"08b") #decimal key to binary
+    #decimal key to binary
+    binaryKey = format(key_integer,"08b") 
     finalstr = ""
     for c in input_text:
-        binaryChar = format(ord(c),'08b') #character to his binary 
-        finalstr += ''.join(xor_table(binaryKey,binaryChar)) #xor of the to binary
+        #character to his binary 
+        binaryChar = format(ord(c),'08b') 
+        #xor of the to binary
+        finalstr += ''.join(xor_table(binaryKey,binaryChar))
     print(len(finalstr)//8)
-    print(''.join(chr(int(finalstr[i*8:i*8+8],2)) for i in range(len(finalstr)//8)))  #print the result from our binary final decoded string
+    #print the result from our binary final decoded string
+    print(''.join(chr(int(finalstr[i*8:i*8+8],2)) for i in range(len(finalstr)//8)))  
  
        
 #methods for xor and return binary string  
