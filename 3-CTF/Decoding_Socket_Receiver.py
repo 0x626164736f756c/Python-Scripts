@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
 
+
+# CryptoHack ctf : 
+# purpose was decode a string (who can be encoded in 'rot13','bigint','base64','ascii','hex')
+# and return it (100 times)
+# before have the flag 
+
+
+
+
 from pwn import *
 import json
 import codecs

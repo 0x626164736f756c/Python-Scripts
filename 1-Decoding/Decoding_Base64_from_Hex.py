@@ -12,7 +12,7 @@ def decodingB64():
 #decoding the hex byte input, ---> just comment if the input isnt a HEX
 def decodingHex():
     try:
-        # tab = <your_input_here> 
+        temp = <your_input_here> 
         #no need to had .decode('utf-8') because we need the byte version
         temp2 = bytes.fromhex(temp)
         return temp2
