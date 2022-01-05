@@ -10,8 +10,7 @@
 
 ## DOMAIN : 
 <ul>
-    <li> <a href=https://github.com/0x626164736f756c/Python-Scripts/tree/master/1-Decoding> Decoding</a>
-    </li>
+<li> <a href=https://github.com/0x626164736f756c/Python-Scripts/tree/master/1-Decoding> Decoding</a></li>
 <li><a href=https://github.com/0x626164736f756c/Python-Scripts/tree/master/2-Steganography> Steganography</a> 
   <ul>
     <li> <a href=https://github.com/0x626164736f756c/Python-Scripts/tree/master/2-Steganography/Paddinganography>Paddinganography</a></li>
@@ -19,8 +18,8 @@
   <ul><li> <a href=https://github.com/0x626164736f756c/Python-Scripts/tree/master/2-Steganography/XOR_image>XOR-IMAGE</a></li>
   </ul>
 </li>
-<li><a href=https://github.com/0x626164736f756c/Python-Scripts/tree/master/3-CTF>CTF</a>
-<li><a href=https://github.com/0x626164736f756c/Python-Scripts/tree/master/4-SOLVE>SOLVE</a>
+<li><a href=https://github.com/0x626164736f756c/Python-Scripts/tree/master/3-CTF>CTF</a></li>
+<li><a href=https://github.com/0x626164736f756c/Python-Scripts/tree/master/4-SOLVE>SOLVE</a></li>
 </li>
 </ul>
  
