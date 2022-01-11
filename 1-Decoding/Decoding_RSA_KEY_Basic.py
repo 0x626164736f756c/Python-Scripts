@@ -9,9 +9,9 @@ from Crypto.PublicKey import RSA
 
 
 def read_RSA_KEY():
-    with open("<your_key_.pem","r") as f:
+    with open("<your_key","r") as f:
         key = RSA.import_key(f.read())
-        print(key.<the part that interest yourself -> example key.d for the private key>)
+        print("key.<the part that interest yourself -> example key.d for the private key>")
       
 def main():
     read_RSA_KEY()
