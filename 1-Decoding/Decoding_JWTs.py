@@ -14,5 +14,8 @@ def main():
     temp_variable2 = jwt.decode(token_string, options={"verify_signature": False})
     print(temp_variable2)
 
+    # for the encoded part : 
+    # jwt.encode(payload,secret,algorithm='HS256 for exemple')
+
 if __name__ == '__main__':
         main()
