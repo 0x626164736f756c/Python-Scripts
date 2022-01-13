@@ -40,7 +40,7 @@ def decoding(encoded : str, methods : str):
                 final = ''.join(map(chr,transInt))
                 return str(final)
             except:
-                print("erreur 1")
+                print("error 1")
         #decoding rot13
         elif methods == "rot13":
             try:
@@ -48,22 +48,22 @@ def decoding(encoded : str, methods : str):
                finalstr = rot13(encoded)
                return finalstr
             except:
-                print("erreur 2")
+                print("error 2")
         elif methods == "hex" or methods == "bigint":
             try:
                 temp = encoded.removeprefix("0x")
                 temp2 = bytes.fromhex(temp).decode('utf-8')
                 return temp2
             except :
-                print("erreur 3")
+                print("error 3")
         elif methods =="base64":
             try:
                 temp2 = base64.urlsafe_b64decode(encoded)
                 return str(temp2,"utf-8")
             except:
-                print("erreur 4")
+                print("error 4")
     except:
-        print("une erreur est apparue")
+        print("error appear")
         
 #methods for iterate over the socket 
 def run():
