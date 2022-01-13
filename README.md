@@ -20,6 +20,7 @@
 </li>
 <li><a href=https://github.com/0x626164736f756c/Python-Scripts/tree/master/3-CTF>CTF</a></li>
 <li><a href=https://github.com/0x626164736f756c/Python-Scripts/tree/master/4-SOLVE>SOLVE</a></li>
+<li><a href=https://github.com/0x626164736f756c/Python-Scripts/tree/master/5-FORGE>FORGE</a></li>
 </li>
 </ul>
  
