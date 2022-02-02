@@ -27,9 +27,9 @@ def forge_JWT():
     # for the encryption of your signature
     # this can be weak or break
     secret_key = ""
-
+    
     # we use after that the jwt.encode(<payload><secretkey or pub/priv key><algorithm>)
-    my_JWT_token = jwt.encode(payload_data,key=secret_key,algorithm =algorithm)
+    my_JWT_token = jwt.encode(payload_data,key=secret_key,algorithm=algorithm)
     print(my_JWT_token)
 
 
